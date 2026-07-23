@@ -1,0 +1,37 @@
+{
+  "name": "mail-domain-check-cli",
+  "version": "0.1.0",
+  "description": "Dependency-free CLI for public SPF, DKIM, DMARC, MX, PTR, MTA-STS, TLS-RPT, and CAA checks.",
+  "type": "module",
+  "bin": {
+    "mail-domain-check": "bin/mail-domain-check.mjs"
+  },
+  "files": [
+    "bin/"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zac343/mail-domain-check-cli.git"
+  },
+  "homepage": "https://mail-domain-check-zac2.coral-ibis-2405.chatgpt.site/developers/cli/?utm_source=github&utm_medium=repository&utm_campaign=mail_domain_check_cli",
+  "bugs": {
+    "url": "https://github.com/zac343/mail-domain-check-cli/issues"
+  },
+  "keywords": [
+    "email",
+    "email-security",
+    "spf",
+    "dkim",
+    "dmarc",
+    "dns",
+    "mta-sts",
+    "tls-rpt"
+  ],
+  "license": "MIT"
+}
