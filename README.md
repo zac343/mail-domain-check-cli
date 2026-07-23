@@ -20,6 +20,17 @@ cd mail-domain-check-cli
 node bin/mail-domain-check.mjs example.com
 ```
 
+For a version-pinned download:
+
+```sh
+curl -fsSL https://github.com/zac343/mail-domain-check-cli/releases/download/v0.1.0/mail-domain-check.mjs -o mail-domain-check.mjs
+node mail-domain-check.mjs example.com
+```
+
+GitHub publishes the digest for each release asset. Verify the downloaded file
+against the asset digest before using it in an automated or privileged
+environment.
+
 ## Usage
 
 Add a known DKIM selector or the actual outbound IP when available:
